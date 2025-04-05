@@ -68,8 +68,58 @@ FROM retail_sales;
 
 - **Missing Data Handling**: Inspect the dataset for any null or incomplete values and remove any records that may compromise data integrity.
 
+```sql
+
+SELECT * FROM retail_sales
+WHERE
+    transactions_id is null
+    or
+    sale_date is null
+    or
+    sale_time is null
+    or
+    customer_id is null
+    or 
+    gender is null
+    or
+    age is null
+    or
+    category is null
+    or 
+    quantity is null 
+    or
+    price_per_unit is null
+    or
+    cogs is null
+    or 
+    total_sale is null;
 
 
+DELETE FROM retail_sales
+WHERE
+    transactions_id is null
+    or
+    sale_date is null
+    or
+    sale_time is null
+    or
+    customer_id is null
+    or 
+    gender is null
+    or
+    age is null
+    or
+    category is null
+    or 
+    quantity is null 
+    or
+    price_per_unit is null
+    or
+    cogs is null
+    or 
+    total_sale is null;
+
+```
 
 
 

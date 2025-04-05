@@ -5,16 +5,16 @@ SQL skills commonly applied by data analysts to clean, explore, and analyze reta
 
 ## Strategic Objectives
 - **Retail Sales Database Setup**
-  - Design and implement a structured relational database to store retail transaction data efficiently.
+  Design and implement a structured relational database to store retail transaction data efficiently.
 
 - **Data Cleaning**
-  - Identify and eliminate records with null or inconsistent values to ensure data quality and reliability.
+  Identify and eliminate records with null or inconsistent values to ensure data quality and reliability.
 
 - **Exploratory Data Analysis (EDA)** 
-  - Perform initial data exploration using SQL to understand patterns, trends, and data distribution.
+  Perform initial data exploration using SQL to understand patterns, trends, and data distribution.
 
 - **Business Insight Generation**
-  - Develop and execute targeted SQL queries to address key business questions, uncover growth opportunities, and support strategic decision-making.
+  Develop and execute targeted SQL queries to address key business questions, uncover growth opportunities, and support strategic decision-making.
 
 ## Project Breakdown
 

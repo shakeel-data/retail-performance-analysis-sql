@@ -4,17 +4,13 @@
 SQL skills commonly applied by data analysts to clean, explore, and analyze retail sales data. It involves creating a structured retail database, conducting exploratory data analysis (EDA), and key for business growth barriers and solutions through well-crafted SQL queries. This project Designed for data analysis and serves as a practical mastering of SQL in real-world business contexts.
 
 ## Strategic Objectives
-- **Retail Sales Database Setup**
-  Design and implement a structured relational database to store retail transaction data efficiently.
+- **Retail Sales Database Setup** - Design and implement a structured relational database to store retail transaction data efficiently.
 
-- **Data Cleaning**
-  Identify and eliminate records with null or inconsistent values to ensure data quality and reliability.
+- **Data Cleaning** - Identify and eliminate records with null or inconsistent values to ensure data quality and reliability.
 
-- **Exploratory Data Analysis (EDA)** 
-  Perform initial data exploration using SQL to understand patterns, trends, and data distribution.
+- **Exploratory Data Analysis (EDA)** - Perform initial data exploration using SQL to understand patterns, trends, and data distribution.
 
-- **Business Insight Generation**
-  Develop and execute targeted SQL queries to address key business questions, uncover growth opportunities, and support strategic decision-making.
+- **Business Insight Generation** - Develop and execute targeted SQL queries to address key business questions, uncover growth opportunities, and support strategic decision-making.
 
 ## Project Breakdown
 

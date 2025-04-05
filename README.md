@@ -125,21 +125,21 @@ WHERE
 
 To extract actionable insights, the following SQL statements were executed in response to targeted business questions.
 
-Q.1 **What is the Total revenue generated?**
+**Q.1** **What is the Total revenue generated?**
 ```sql
 SELECT 
      SUM(total_sale) AS Total_revenue 
 FROM Retail_sales;
 ```
 
-Q.2 **What’s the Average sale amount per transaction?**
+**Q.2** **What’s the Average sale amount per transaction?**
 ```sql
 SELECT 
      AVG(total_sale) AS Average_transaction
 FROM Retail_sales;
 ```
 
-Q.3 **How many sales were made by male vs female customers?**
+**Q.3** **How many sales were made by male vs female customers?**
 ```sql
 SELECT gender, 
             COUNT(*) AS sales_count
@@ -147,21 +147,21 @@ FROM Retail_sales
 GROUP BY gender;
 ```
 
-Q.4 **Find all transactions where the total_sale is greater than "1000"?**
+**Q.4** **Find all transactions where the total_sale is greater than "1000"?**
 ```sql
 SELECT * 
 FROM retail_sales
 WHERE total_sale > 1000
 ```
 
-Q.5 **Which sales transactions occurred on '2022-11-05?**
+**Q.5** **Which sales transactions occurred on '2022-11-05?**
 ```sql
 SELECT *
 FROM retail_sales
 WHERE sale_date = '2022-11-05';
 ```
 
-Q.6 **What is the Percentage of male vs female customers?**
+**Q.6** **What is the Percentage of male vs female customers?**
 ```sql
 SELECT gender, 
        COUNT(*) * 100.0 / (SELECT COUNT(*) FROM Retail_sales) AS percentage
@@ -207,6 +207,79 @@ SELECT
 FROM retail_sales
 WHERE category = 'Electronics'
 ```
+
+**Q.11** **Find out the total number of transactions made by each gender in each category?**
+```sql
+SELECT 
+    category,
+    gender,
+    COUNT(*) as total_transactions
+FROM retail_sales
+GROUP BY 
+    category,
+    gender
+ORDER BY 1
+```
+
+**Q.12** **Which Category has highest quantity sold?**
+```sql
+SELECT 
+     category, 
+     SUM(quantity) AS total_quantity
+FROM Retail_sales
+GROUP BY category
+ORDER BY total_quantity DESC
+LIMIT 1;
+```
+
+**Q.13** **Which day has the highest revenue occured?**
+```sql
+SELECT 
+     EXTRACT(HOUR FROM sale_time) AS hour, 
+	 SUM(total_sale) AS total_sales
+FROM Retail_sales
+GROUP BY hour
+ORDER BY hour;
+```
+
+**Q.14** **What’s the month-wise revenue distribution?**
+```sql
+SELECT 
+     TO_CHAR(sale_date, 'YYYY-MM') AS month, 
+	 SUM(total_sale) AS monthly_revenue
+FROM Retail_sales
+GROUP BY month
+ORDER BY month;
+```
+
+**Q.15** **Find out each shift and number of orders (Eg. Morning <12, Afternoon Between 12 & 17, Evening >17)?**
+```sql
+SELECT 
+     CASE 
+     WHEN EXTRACT(HOUR FROM sale_time) < 12 THEN 'Morning'
+     WHEN EXTRACT(HOUR FROM sale_time) BETWEEN 12 AND 17 THEN 'Afternoon'
+     ELSE 'Evening'
+     END AS shift,
+     COUNT(*) AS order_count
+FROM Retail_sales
+GROUP BY 1;
+```
+
+
+## Analysis Highlights
+- **Premium Transactions** - A notable portion of transactions exceeded the 1000-unit mark in total sales, highlighting instances of high-value or premium purchases.
+- **Consumer Intelligence** - The analysis identifies high-spending customers and pinpoints the most frequently purchased product categories, offering valuable inputs for customer segmentation and targeted marketing strategies.
+- **Customer Profile Overview** - The dataset captures a broad spectrum of age groups, reflecting a diverse customer base. Sales activity is distributed across multiple product segments, notably in categories like Clothing and Beauty.
+- **Revenue Patterns** - Month-over-month analysis reveals fluctuations in revenue, providing visibility into seasonal demand cycles and peak performance periods.
+
+## Analytical Summaries
+- **Sales Insights** : A comprehensive analysis highlighting overall revenue, customer segmentation, and category-wise sales performance.
+- - **Consumer Analytics** - This section provides insights into top-spending customers and evaluates the count of distinct customers across each product category, offering a clearer view of customer value and segmentation trends.
+- **Time-Series Analysis**- This analysis highlights monthly revenue patterns and sales distribution across different shifts (morning, afternoon, evening). It offers valuable insights into peak performance periods and customer buying behavior, supporting more informed and strategic business decisions.
+
+## Conclusion
+- This project provides a comprehensive and practical introduction to SQL, designed specifically for aspiring data analysts. It covers the entire process, including database creation, structured data loading, careful data cleaning, and thorough exploratory data analysis (EDA).
+- The results of this project can be vital in identifying revenue opportunities, improving customer targeting strategies, optimizing inventory management, and supporting overall business growth. It serves not only as a technical exercise but also as a real-world application of SQL to address business challenges.
 
 
 

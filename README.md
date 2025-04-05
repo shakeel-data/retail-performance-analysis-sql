@@ -121,10 +121,22 @@ WHERE
 
 ```
 
+### 3. Data Exploration & Key Outcomes
 
+To extract actionable insights, the following SQL statements were executed in response to targeted business questions.
 
-
-
+Q.1 **What is the Total revenue generated?**
+```sql
+SELECT 
+     SUM(total_sale) AS Total_revenue 
+FROM Retail_sales;
+```
+Q.2 What’s the Average sale amount per transaction?
+```sql
+SELECT 
+     AVG(total_sale) AS Average_transaction
+FROM Retail_sales;
+```
 
 
 

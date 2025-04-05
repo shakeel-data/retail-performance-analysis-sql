@@ -1,4 +1,4 @@
-# 🛒 Retail Analytics Project | SQL 
+# 🛒 Retail Sales Analytics Project | SQL 
 Retail sales is essential for businesses aiming to make informed, data-driven decisions. It provides valuable insights into customer purchasing behavior, product performance, and sales trends. By analyzing transactional data, companies can identify peak sales periods, top-performing categories, and shifting customer preferences. These insights enable businesses to optimize pricing strategies, manage inventory efficiently, and tailor marketing efforts—leading to improved customer satisfaction, increased revenue, and a stronger competitive edge in the market.
 
 ## Project Overview

@@ -13,6 +13,12 @@ SQL skills commonly applied by data analysts to clean, explore, and analyze reta
 
 - **Business Insight Generation** - Develop and execute targeted SQL queries to address key business questions, uncover growth opportunities, and support strategic decision-making.
 
+## Data sources
+- Data
+  - <a href="https://github.com/Shakeel-Data/Retail-Performance-Analysis-SQL/blob/main/Sales%20.csv">csv</a>
+- SQL
+  - <a href="https://github.com/Shakeel-Data/Retail-Performance-Analysis-SQL/blob/main/Retail%20analytics.sql">Queries</a>
+
 ## Project Breakdown
 
 ### 1. Database Configuration

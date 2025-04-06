@@ -282,7 +282,7 @@ GROUP BY 1;
 - **SQL (PostgreSQL Syntax)**
   - For querying, cleaning, exploring, and analyzing transactional data
 - **Database Management Systems**
-  - PgAdmin (PostgreSQL) and MySQL used for data management and executing SQL scripts
+  - PgAdmin used for data management and executing SQL scripts
 - **Retail Sales Dataset**
   - Custom-imported CSV file representing real-world retail transaction data
 

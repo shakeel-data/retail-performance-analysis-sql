@@ -295,7 +295,7 @@ GROUP BY 1;
   - Custom-imported CSV file representing real-world retail transaction data
 
 ## 🏁 Conclusion
-- This project provides a comprehensive and practical introduction to SQL, designed specifically for aspiring data analysts. It covers the entire process, including database creation, structured data loading, careful data cleaning, and thorough exploratory data analysis (EDA).The results of this project can be vital in identifying revenue opportunities, improving customer targeting strategies, optimizing inventory management, and supporting overall business growth. It serves not only as a technical exercise but also as a real-world application of SQL to address business challenges.
+This project provides a comprehensive and practical introduction to SQL, designed specifically for aspiring data analysts. It covers the entire process, including database creation, structured data loading, careful data cleaning, and thorough exploratory data analysis (EDA).The results of this project can be vital in identifying revenue opportunities, improving customer targeting strategies, optimizing inventory management, and supporting overall business growth. It serves not only as a technical exercise but also as a real-world application of SQL to address business challenges.
 
 
 

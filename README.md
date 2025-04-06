@@ -276,12 +276,12 @@ GROUP BY 1;
 ## Overview
 - **Sales Insights** : A comprehensive analysis highlighting overall revenue, customer segmentation, and category-wise sales performance.
 - **Consumer Analytics** - This section provides insights into top-spending customers and evaluates the count of distinct customers across each product category, offering a clearer view of customer value and segmentation trends.
-- **Time-Series Analysis**- This analysis highlights monthly revenue patterns and sales distribution across different shifts (morning, afternoon, evening). It offers valuable insights into peak performance periods and customer buying behavior, supporting more informed and strategic business decisions.
+- **Time-Series Analysis** - This analysis highlights monthly revenue patterns and sales distribution across different shifts (morning, afternoon, evening). It offers valuable insights into peak performance periods and customer buying behavior, supporting more informed and strategic business decisions.
 
 ## Platform & Tools
-- **PostgreSQL** ( Syntax )
-- **PostgreSQL and MySQL** ( Structured schemas, store data, execute queries, and manage the overall flow of transactional information )
-- **Dataset** - ( Custom-imported CSV file representing retail transaction )
+- **PostgreSQL** **Syntax** (For querying, cleaning, exploring, and analyzing transactional data)
+- **Database Management Systems** (PostgreSQL and MySQL used for data management and executing SQL scripts)
+- **Retail Sales Dataset** (Custom-imported CSV file representing real-world retail transaction data)
 
 ## Conclusion
 - This project provides a comprehensive and practical introduction to SQL, designed specifically for aspiring data analysts. It covers the entire process, including database creation, structured data loading, careful data cleaning, and thorough exploratory data analysis (EDA).

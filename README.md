@@ -279,9 +279,9 @@ GROUP BY 1;
 - **Time-Series Analysis**- This analysis highlights monthly revenue patterns and sales distribution across different shifts (morning, afternoon, evening). It offers valuable insights into peak performance periods and customer buying behavior, supporting more informed and strategic business decisions.
 
 ## Platform & Tools
-- **SQL (PostgreSQL Syntax)**
-- **Database Management System (DBMS)** - ** PostgreSQL and MySQL** of these platforms are used to create structured schemas, store data, execute queries, and manage the overall flow of transactional information in a secure and scalable environment.
-- **Dataset** - A custom-imported CSV file representing retail transaction data is used in this project. The dataset simulates real-world sales records and includes attributes such as transaction ID, date, time, customer demographics, product categories, quantities sold, and financial metrics.
+- **PostgreSQL** (Syntax)
+- **PostgreSQL and MySQL** (Structured schemas, store data, execute queries, and manage the overall flow of transactional information in a secure and scalable environment).
+- **Dataset** - (custom-imported CSV file representing retail transaction).
 
 ## Conclusion
 - This project provides a comprehensive and practical introduction to SQL, designed specifically for aspiring data analysts. It covers the entire process, including database creation, structured data loading, careful data cleaning, and thorough exploratory data analysis (EDA).

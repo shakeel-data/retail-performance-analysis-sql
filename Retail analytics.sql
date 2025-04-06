@@ -83,7 +83,7 @@ WHERE
 SELECT * FROM RETAIL_SALES;
 
 
-                                                              --- DATA EXPLORATION ---
+                                                         --- DATA EXPLORATION ---
 
 --How many total sales transactions are recorded?
 
@@ -99,7 +99,7 @@ SELECT
 FROM Retail_sales;
 
 
-                                          --- DATA INSIGHTS AND BUSINESS GROWTH BARRIERS & SOLUTIONS ---
+                                               --- DATA INSIGHTS AND BUSINESS GROWTH BARRIERS & SOLUTIONS ---
 
 --Q.1 What is the Total revenue generated?
 
@@ -228,8 +228,7 @@ GROUP BY month
 ORDER BY month;
 
 
---Q.15 Write a SQL query to create each shift and number of orders (Eg. Morning <12, Afternoon Between 12 & 17, Evening >17)?
-
+--Q.15 Find out each shift and number of orders (Eg. Morning <12, Afternoon Between 12 & 17, Evening >17)?
 SELECT 
      CASE 
      WHEN EXTRACT(HOUR FROM sale_time) < 12 THEN 'Morning'
@@ -242,4 +241,4 @@ GROUP BY 1;
 
 
 
-                                                           --- END OF ANALYSIS ---
+                                                              --- END OF ANALYSIS ---

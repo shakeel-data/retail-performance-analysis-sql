@@ -288,7 +288,7 @@ GROUP BY 1;
 
 ## 🛠️ Platform & Tools
 - **SQL (PostgreSQL Syntax)**
-  - For querying, cleaning, exploring, and analyzing transactional data
+  - Querying, cleaning, exploring, and analyzing transactional data
 - **Database Management System**
   - PgAdmin used for data management and executing SQL scripts
 - **Retail Sales Dataset**

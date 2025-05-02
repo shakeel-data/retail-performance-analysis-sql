@@ -8,11 +8,8 @@ SQL skills commonly applied by data analysts to clean, explore, and analyze reta
 
 ## 🎯 Key Objectives
 - **Retail Sales Database Setup** - Design and implement a structured relational database to store retail transaction data efficiently.
-
 - **Data Cleaning** - Identify and eliminate records with null or inconsistent values to ensure data quality and reliability.
-
 - **Exploratory Data Analysis (EDA)** - Perform initial data exploration using SQL to understand patterns, trends, and data distribution.
-
 - **Business Insight Generation** - Develop and execute targeted SQL queries to address key business questions, uncover growth opportunities, and support strategic decision-making.
 
 ## 📂 Data sources
@@ -274,7 +271,6 @@ FROM Retail_sales
 GROUP BY 1;
 ```
 
-
 ## ✨ Highlights and key Insights
 - **Premium Transactions** - A notable portion of transactions exceeded the 1000-unit mark in total sales, highlighting instances of high-value or premium purchases.
 - **Consumer Intelligence** - The analysis identifies high-spending customers and pinpoints the most frequently purchased product categories, offering valuable inputs for customer segmentation and targeted marketing strategies.
@@ -289,19 +285,9 @@ GROUP BY 1;
   - It offers valuable insights into peak performance periods and customer buying behavior, supporting more informed and strategic business decisions.
 
 ## 🛠️ Technologies and Tools
-- **SQL (PostgreSQL Syntax)**
-  - Querying, cleaning, exploring, and analyzing transactional data
-- **Database Management System**
-  - PgAdmin used for data management and executing SQL scripts
-- **Retail Sales Dataset**
-  - Custom-imported CSV file representing real-world retail transaction data
+**Retail Sales Dataset** – Real-world transactional data (CSV)
+**PostgreSQL (SQL)** – Data cleaning, exploration, and analysis
+**PgAdmin** – Database management and SQL execution
 
 ## 🏁 Conclusion
-This project provides a comprehensive and practical introduction to SQL, designed specifically for aspiring data analysts. It covers the entire process, including database creation, structured data loading, careful data cleaning, and thorough exploratory data analysis (EDA).The results of this project can be vital in identifying revenue opportunities, improving customer targeting strategies, optimizing inventory management, and supporting overall business growth. It serves not only as a technical exercise but also as a real-world application of SQL to address business challenges.
-
-
-
-
-
-
-
+This project provides a comprehensive and practical introduction to SQL, designed specifically for aspiring data analysts. It covers the entire process, including database creation, structured data loading, careful data cleaning, and thorough **exploratory data analysis (EDA)**.The results of this project can be vital in identifying revenue opportunities, **improving customer targeting strategies**, optimizing inventory management, and supporting** overall business growth.** It serves not only as a technical exercise but also as a real-world application of SQL to address business challenges.

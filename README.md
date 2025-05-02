@@ -281,7 +281,7 @@ GROUP BY 1;
 - **Customer Profile Overview** - The dataset captures a broad spectrum of age groups, reflecting a diverse customer base. Sales activity is distributed across multiple product segments, notably in categories like Clothing and Beauty.
 - **Revenue Patterns** - Month-over-month analysis reveals fluctuations in revenue, providing visibility into seasonal demand cycles and peak performance periods.
 
-## 📘 Summary 
+## 📘 Summary of Analysis 
 - **Sales Insights** - A comprehensive analysis highlighting overall revenue, customer segmentation, and category-wise sales performance.
 - **Consumer Analytics** - This section provides insights into top-spending customers and evaluates the count of distinct customers across each product category, offering a clearer view of customer value and segmentation trends.
 - **Time-Series Analysis**

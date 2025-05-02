@@ -285,9 +285,9 @@ GROUP BY 1;
   - It offers valuable insights into peak performance periods and customer buying behavior, supporting more informed and strategic business decisions.
 
 ## 🛠️ Technologies and Tools
-**Retail Sales Dataset** – Real-world transactional data (CSV)
-**PostgreSQL (SQL)** – Data cleaning, exploration, and analysis
-**PgAdmin** – Database management and SQL execution
+- **Retail Sales Dataset** – Real-world transactional data (CSV)
+- **PostgreSQL (SQL)** – Data cleaning, exploration, and analysis
+= **PgAdmin** – Database management and SQL execution
 
 ## 🏁 Conclusion
 This project provides a comprehensive and practical introduction to SQL, designed specifically for aspiring data analysts. It covers the entire process, including database creation, structured data loading, careful data cleaning, and thorough **exploratory data analysis (EDA)**.The results of this project can be vital in identifying revenue opportunities, **improving customer targeting strategies**, optimizing inventory management, and supporting** overall business growth.** It serves not only as a technical exercise but also as a real-world application of SQL to address business challenges.

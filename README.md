@@ -19,7 +19,6 @@ SQL skills commonly applied by data analysts to clean, explore, and analyze reta
   - <a href="https://github.com/Shakeel-Data/Retail-Performance-Analysis-SQL/blob/main/Retail%20analytics.sql">Queries</a>
 
 ## 🔧 Project Workflow
-
 ### 🗄️ 1. Database Configuration
 - **Database Deployment** : The project initiates by provisioning a structured database named `Project1`, designed to serve as the centralized repository for all retail transaction data.
 - **Schema Definition & Table Structuring** : A comprehensive table, retail_sales, is architected to encapsulate critical sales attributes such as transaction identifiers, timestamps, customer profiles (ID, gender, age), product classifications, quantities sold, pricing metrics, cost of goods sold (COGS), and overall sales figures.
@@ -287,7 +286,7 @@ GROUP BY 1;
 ## 🛠️ Technologies and Tools
 - **Retail Sales Dataset** – Real-world transactional data (CSV)
 - **PostgreSQL (SQL)** – Data cleaning, exploration, and analysis
-= **PgAdmin** – Database management and SQL execution
+- **PgAdmin** – Database management and SQL execution
 
 ## 🏁 Conclusion
 This project provides a comprehensive and practical introduction to SQL, designed specifically for aspiring data analysts. It covers the entire process, including database creation, structured data loading, careful data cleaning, and thorough **exploratory data analysis (EDA)**.The results of this project can be vital in identifying revenue opportunities, **improving customer targeting strategies**, optimizing inventory management, and supporting** overall business growth.** It serves not only as a technical exercise but also as a real-world application of SQL to address business challenges.

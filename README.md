@@ -1,10 +1,12 @@
 # 🛒 Retail Analytics Project | PostgreSQL
+![image](https://github.com/user-attachments/assets/535003a9-68bb-410a-a48e-502d7f6f952a)
+
 Retail sales is essential for businesses aiming to make informed, data-driven decisions. It provides valuable insights into customer purchasing behavior, product performance, and sales trends. By analyzing transactional data, companies can identify peak sales periods, top-performing categories, and shifting customer preferences. These insights enable businesses to optimize pricing strategies, manage inventory efficiently, and tailor marketing efforts leading to improved customer satisfaction, increased revenue, and a stronger competitive edge in the market.
 
 ## 📘 Project Overview
 SQL skills commonly applied by data analysts to clean, explore, and analyze retail sales data. It involves creating a structured retail database, conducting exploratory data analysis (EDA), and key for business growth barriers and solutions through well-crafted SQL queries. This project Designed for data analysis and serves as a practical mastering of SQL in real-world business contexts.
 
-## 🎯 Strategic Objectives
+## 🎯 Objectives
 - **Retail Sales Database Setup** - Design and implement a structured relational database to store retail transaction data efficiently.
 
 - **Data Cleaning** - Identify and eliminate records with null or inconsistent values to ensure data quality and reliability.
@@ -19,7 +21,7 @@ SQL skills commonly applied by data analysts to clean, explore, and analyze reta
 - SQL
   - <a href="https://github.com/Shakeel-Data/Retail-Performance-Analysis-SQL/blob/main/Retail%20analytics.sql">Queries</a>
 
-## 🔧 Project Breakdown
+## 🔧 Project Workflow
 
 ### 🗄️ 1. Database Configuration
 - **Database Deployment** : The project initiates by provisioning a structured database named `Project1`, designed to serve as the centralized repository for all retail transaction data.
@@ -273,20 +275,20 @@ GROUP BY 1;
 ```
 
 
-## ✨ Highlights
+## ✨ Highlights and key Insights
 - **Premium Transactions** - A notable portion of transactions exceeded the 1000-unit mark in total sales, highlighting instances of high-value or premium purchases.
 - **Consumer Intelligence** - The analysis identifies high-spending customers and pinpoints the most frequently purchased product categories, offering valuable inputs for customer segmentation and targeted marketing strategies.
 - **Customer Profile Overview** - The dataset captures a broad spectrum of age groups, reflecting a diverse customer base. Sales activity is distributed across multiple product segments, notably in categories like Clothing and Beauty.
 - **Revenue Patterns** - Month-over-month analysis reveals fluctuations in revenue, providing visibility into seasonal demand cycles and peak performance periods.
 
-## 📘 Overview
+## 📘 Summary 
 - **Sales Insights** - A comprehensive analysis highlighting overall revenue, customer segmentation, and category-wise sales performance.
 - **Consumer Analytics** - This section provides insights into top-spending customers and evaluates the count of distinct customers across each product category, offering a clearer view of customer value and segmentation trends.
 - **Time-Series Analysis**
   - This analysis highlights monthly revenue patterns and sales distribution across different shifts (morning, afternoon, evening).
   - It offers valuable insights into peak performance periods and customer buying behavior, supporting more informed and strategic business decisions.
 
-## 🛠️ Platform & Tools
+## 🛠️ Technologies and Tools
 - **SQL (PostgreSQL Syntax)**
   - Querying, cleaning, exploring, and analyzing transactional data
 - **Database Management System**

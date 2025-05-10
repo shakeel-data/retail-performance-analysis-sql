@@ -270,18 +270,20 @@ FROM Retail_sales
 GROUP BY 1;
 ```
 
-## ✨ Highlights and key Insights
-- **Premium Transactions** - A notable portion of transactions exceeded the 1000-unit mark in total sales, highlighting instances of high-value or premium purchases.
-- **Consumer Intelligence** - The analysis identifies high-spending customers and pinpoints the most frequently purchased product categories, offering valuable inputs for customer segmentation and targeted marketing strategies.
-- **Customer Profile Overview** - The dataset captures a broad spectrum of age groups, reflecting a diverse customer base. Sales activity is distributed across multiple product segments, notably in categories like Clothing and Beauty.
-- **Revenue Patterns** - Month-over-month analysis reveals fluctuations in revenue, providing visibility into seasonal demand cycles and peak performance periods.
-
 ## 📘 Summary of Analysis 
 - **Sales Insights** - A comprehensive analysis highlighting overall revenue, customer segmentation, and category-wise sales performance.
 - **Consumer Analytics** - This section provides insights into top-spending customers and evaluates the count of distinct customers across each product category, offering a clearer view of customer value and segmentation trends.
 - **Time-Series Analysis**
   - This analysis highlights monthly revenue patterns and sales distribution across different shifts (morning, afternoon, evening).
   - It offers valuable insights into peak performance periods and customer buying behavior, supporting more informed and strategic business decisions.
+
+
+## ✨ Highlights and key Insights
+- **Premium Transactions** - A notable portion of transactions exceeded the 1000-unit mark in total sales, highlighting instances of high-value or premium purchases.
+- **Consumer Intelligence** - The analysis identifies high-spending customers and pinpoints the most frequently purchased product categories, offering valuable inputs for customer segmentation and targeted marketing strategies.
+- **Customer Profile Overview** - The dataset captures a broad spectrum of age groups, reflecting a diverse customer base. Sales activity is distributed across multiple product segments, notably in categories like Clothing and Beauty.
+- **Revenue Patterns** - Month-over-month analysis reveals fluctuations in revenue, providing visibility into seasonal demand cycles and peak performance periods.
+
 
 ## 🛠️ Technologies and Tools
 - **Retail Sales Dataset** – Real-world transactional data (CSV)

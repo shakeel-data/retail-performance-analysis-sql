@@ -280,10 +280,10 @@ GROUP BY 1;
 
 
 ## ✨ Highlights and key Insights
-- **Premium Transactions** - A notable portion of transactions exceeded the 1000-unit mark in total sales, highlighting instances of high-value or premium purchases.
+- **Premium Transactions** - A notable portion of transactions exceeded the **1000-unit mark in total sales**, highlighting instances of high-value or premium purchases.
 - **Consumer Intelligence** - The analysis identifies high-spending customers and pinpoints the most frequently purchased product categories, offering valuable inputs for customer segmentation and targeted marketing strategies.
-- **Customer Profile Overview** - The dataset captures a broad spectrum of age groups, reflecting a diverse customer base. Sales activity is distributed across multiple product segments, notably in categories like Clothing and Beauty.
-- **Revenue Patterns** - Month-over-month analysis reveals fluctuations in revenue, providing visibility into seasonal demand cycles and peak performance periods.
+- **Customer Profile Overview** - The dataset captures a broad **spectrum of age groups**, reflecting a diverse customer base. Sales activity is distributed across multiple product segments, notably in categories like **Clothing and Beauty**.
+- **Revenue Patterns** - Month-over-month analysis reveals fluctuations in revenue, providing visibility into seasonal **demand cycles and peak performance periods**.
 
 
 ## 🛠️ Technologies and Tools
@@ -292,4 +292,4 @@ GROUP BY 1;
 - **PgAdmin** – Database management and SQL execution
 
 ## 🏁 Conclusion
-This project provides a comprehensive and practical introduction to SQL, designed specifically for aspiring data analysts. It covers the entire process, including database creation, structured data loading, careful data cleaning, and thorough **exploratory data analysis (EDA)**.The results of this project can be vital in identifying revenue opportunities, **improving customer targeting strategies**, optimizing inventory management, and supporting** overall business growth.** It serves not only as a technical exercise but also as a real-world application of SQL to address business challenges.
+This project provides a comprehensive and practical introduction to SQL, designed specifically for aspiring data analysts. It covers the entire process, including database creation, structured data loading, careful data cleaning, and thorough **exploratory data analysis (EDA)**.The results of this project can be vital in identifying revenue opportunities, **improving customer targeting strategies**, optimizing inventory management, and supporting **overall business growth.** It serves not only as a technical exercise but also as a real-world application of SQL to address business challenges.

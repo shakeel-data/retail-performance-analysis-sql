@@ -98,8 +98,9 @@ WHERE
     cogs is null
     or 
     total_sale is null;
+```
 
-
+```sql
 DELETE FROM retail_sales
 WHERE
     transactions_id is null

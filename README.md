@@ -24,8 +24,6 @@ SQL skills commonly applied by data analysts to **clean, explore, and analyze** 
 - **Schema Definition & Table Structuring** : A comprehensive table, retail_sales, is architected to encapsulate critical sales attributes such as transaction identifiers, timestamps, customer profiles (ID, gender, age), product classifications, quantities sold, pricing metrics, cost of goods sold (COGS), and overall sales figures.
 
 ```sql
-CREATE DATABASE project1
-
 CREATE TABLE  Retail_sales
 (
    transactions_id INT PRIMARY KEY,

@@ -146,7 +146,7 @@ FROM Retail_sales;
 **Q.3** **How many sales were made by male vs female customers?**
 ```sql
 SELECT gender, 
-            COUNT(*) AS sales_count
+       COUNT(*) AS sales_count
 FROM Retail_sales
 GROUP BY gender;
 ```

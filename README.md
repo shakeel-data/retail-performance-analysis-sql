@@ -16,7 +16,7 @@ SQL skills commonly applied by data analysts to **clean, explore, and analyze** 
 - Data
 <a href="https://github.com/Shakeel-Data/Retail-Performance-Analysis-SQL/blob/main/Sales%20.csv">csv</a>
 - SQL
-<a href="https://github.com/Shakeel-Data/Retail-Performance-Analysis-SQL/blob/main/Retail%20analytics.sql">Queries</a>
+<a href="https://github.com/Shakeel-Data/Retail-Performance-Analysis-SQL/blob/main/Retail%20analytics.sql">queries</a>
 
 ## 🔧 Project Workflow
 ### 🗄️ 1. Database Configuration

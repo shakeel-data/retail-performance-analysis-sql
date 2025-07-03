@@ -285,7 +285,7 @@ GROUP BY 1;
 
 
 ## 🛠️ Technologies and Tools
-- **Retail Sales Dataset** – Real-world transactional data (CSV)
+- **Sales Dataset** – Real-world transactional data (CSV)
 - **PostgreSQL (SQL)** – Data cleaning, exploration, and analysis
 - **PgAdmin** – Database management and SQL execution
 

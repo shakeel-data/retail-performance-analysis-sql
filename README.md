@@ -138,14 +138,14 @@ FROM Retail_sales;
 
 **Q.2** **What’s the Average sale amount per transaction?**
 ```sql
-SELECT 
+SELECT
      AVG(total_sale) AS Average_transaction
 FROM Retail_sales;
 ```
 
 **Q.3** **How many sales were made by male vs female customers?**
 ```sql
-SELECT gender, 
+SELECT gender,
        COUNT(*) AS sales_count
 FROM Retail_sales
 GROUP BY gender;

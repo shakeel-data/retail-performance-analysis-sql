@@ -284,7 +284,7 @@ GROUP BY 1;
 - **Revenue Patterns** - Month-over-month analysis reveals fluctuations in revenue, providing visibility into seasonal **demand cycles and peak performance periods**.
 
 
-## 🛠️ Technologies and Tools
+## 🛠️ Tools and Technologies
 - **Sales Dataset** – Real-world transactional data (CSV)
 - **PostgreSQL** – Data cleaning, exploration, and analysis
 - **PgAdmin** – Database management and SQL execution
